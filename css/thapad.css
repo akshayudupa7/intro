@@ -1,0 +1,231 @@
+*{
+    padding:0;
+    margin:0;
+   
+
+}
+body{
+    overflow-x: hidden;
+   
+}
+.header{
+  
+    background-image:linear-gradient(to top,rgb(28, 84, 173),rgb(43, 160, 206),10%,transparent),url("../image/pic1.jpg");
+  
+    background-size: 100% 100%;
+    width:100vw;
+    height:100vh;
+    color:rgb(255, 255, 255);
+    clip-path:polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
+   
+}
+
+.banner {
+    padding-top:120px;
+
+
+}
+.banner h1{
+    color:rgb(241, 66, 46);
+    font-size:30px;
+    
+}
+.banner p{
+font-size:15px;
+color:rgb(241, 66, 46);
+
+}
+.navbar ul li a,.navbar-brand{
+   color:rgb(248, 242, 242);
+   font-size:15px;
+}
+
+
+.navbar-toggler-icon {
+   background-color:plum;
+}
+.banner button{
+    background-color:transparent;
+    border-radius:20px;
+    border:2px solid white;
+    width:100px;
+    height:40px;
+    color:rgb(241, 66, 46);
+}
+.banner button:hover{
+    background-color: white;
+    color:rgb(0, 26, 255);
+    border:2px solid blue;
+}
+.colmn:hover{
+    box-shadow:0px 0px 20px 0 rgba(226, 15, 15, 0.733);
+    transform:translateY(-20px);
+    transition: 0.5s ;
+
+}
+.colmn h4{
+    font-size:15px;
+    font-weight:bold;
+
+}
+.colmn p{
+    font-size:13px;
+    color:rgb(0, 41, 128);
+ 
+    
+}
+.colmn i{
+    color: rgb(29, 66, 144);
+}
+.middle{
+    padding:40px 0px;
+    
+}
+.middle p{
+    color:blue;
+}
+.center{
+    background-image: linear-gradient(to right,#ABECD6,#FF9A44);
+   background-color: tomato;
+}
+.center h3{
+    padding-top:15px;
+  
+}
+
+.raw i{
+    font-size:40px;
+    padding-bottom:10px;
+    padding-top:30px;
+
+}
+.box1 i{
+    font-size:30px;
+}
+.box1{
+    padding-top:20px;
+}
+.numbers{
+    padding:40px 0px;
+    background-color: rgb(180, 59, 236);
+}
+.numbers p{
+    color:#fff9f9;
+}
+.card-body{
+    list-style-type: none;
+}
+.card button{
+     width:120px;
+     height:40px;
+     border-radius: 20px;
+     border:1px solid rgb(7, 161, 123);
+     background-color: transparent;
+     color:green;
+}
+
+.card:hover button,.card:hover .card-header,.card:hover .card span{
+    
+    color:rgb(36, 209, 108);
+    
+}
+.card:hover button{
+    background-color:rgba(238, 140, 11, 0.849);
+    color:white;
+    
+}
+
+
+.card:hover{
+    box-shadow:0px 0px 20px 0 rgba(15, 82, 226, 0.733);
+    transform:translateY(20px);
+    transition: 0.5s ease-in-out ;
+}
+
+b:hover{
+    color:rgb(7, 161, 123);
+}
+.car{
+    padding:50px;
+    background-image: linear-gradient(160deg,rgb(45, 192, 123) 60%,white 0%);
+   
+}
+.happy-clients{
+    width:100%;
+    height:100vh;
+    padding:80px 0;
+}
+.box{
+    text-align:center;
+    border:1px solid rgba(0,0,0,0.3);
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius:2px;
+    transition:0.3s ease;
+    padding:60px;
+    background-color: white;
+
+}
+.box a img{
+    border-radius:50%;
+    width:50%;
+   
+}
+.box p{
+    padding:20px 0px;
+}
+.box h1, .box h2{
+    font-size:26px;
+
+}
+ .box h2{
+    font-size:26px;
+    padding-bottom:30px;
+    
+}
+.box:hover{
+    background-color: rgb(250, 84, 84);
+    color:white;
+}
+.carousel-indicators{
+    color: royalblue;
+}
+#haf{
+    background-image:linear-gradient(to right,rgba(189, 69, 183, 0.746),rgb(50, 111, 192));
+    
+}
+#nme{
+    margin-top:20px;
+}
+#msg{
+    margin-top:20px;
+}
+#mail{
+    margin-top:20px;
+}
+#mob{
+    margin-top:20px;
+}
+.footer{
+    margin-top:20px;
+}
+.end .btn{
+    width:160px;
+    height:40px;
+    border-radius:10px;
+    color:white;
+    margin-top: 20px;
+}
+#myBtn{
+    position:fixed;
+    bottom:0px;
+    z-index:99;
+    padding:10px;
+    border:none;
+    display:none;
+    color:#fff;
+    background-color:#FF9A44;
+}
+ 
+#myBtn:hover{
+   background-color: aqua;
+}
